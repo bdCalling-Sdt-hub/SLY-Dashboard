@@ -52,8 +52,8 @@ const SignIn = () => {
     <div className="w-full  h-full md:h-screen md:flex justify-around overflow-visible">
       {/* <img
             src={authLogo}
-            className="w-[147px] h-[144px] mx-auto md:my-20 md:mx-5"
-            alt="Sign in illustration"
+            className="w-[147px] h-[144px] mx-auto md:my-20   md:mx-5"
+                         alt="Sign in illustration"
       /> */}
       <div className="w-full max-w-7xl mx-auto border-shadow rounded-md h-[80%] md:my-28 grid grid-cols-1 md:grid-cols-2 place-content-center px-5 pb-10 gap-8 bg-white md:mx-10">
         <div className="hidden md:flex justify-center">
