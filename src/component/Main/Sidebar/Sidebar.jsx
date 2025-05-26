@@ -29,18 +29,17 @@ const sidebarItems = [
     name: "Upload products",
     icon: <MdAddChart className="size-6" />,
   },
-  {
-    path: "/users",
-    name: "User",
-    icon: <FaUsers className="size-6" />,
-  },
+
   {
     path: "/collaborator",
     name: "Past Bid User  ",
     icon: <TbFileLike className="size-6" />,
   },
-
-
+  {
+    path: "/users",
+    name: "User",
+    icon: <FaUsers className="size-6" />,
+  },
 
   {
     path: "/orders",

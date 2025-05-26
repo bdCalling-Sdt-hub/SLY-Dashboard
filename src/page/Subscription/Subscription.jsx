@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { Modal, Input, message } from "antd";
-import { FaPlus } from "react-icons/fa";
+import { FaCheck, FaPlus } from "react-icons/fa";
+import { IoCheckmark } from "react-icons/io5";
 
 const demoSubscriptions = [
   {
@@ -101,12 +102,12 @@ const Subscription = () => {
     const updatedSubscriptions = subscriptions.map((sub) =>
       sub.id === editId
         ? {
-            ...sub,
-            name: subscriptionName,
-            price: Number(price),
-            details: description,
-            duration,
-          }
+          ...sub,
+          name: subscriptionName,
+          price: Number(price),
+          details: description,
+          duration,
+        }
         : sub
     );
 
@@ -140,7 +141,11 @@ const Subscription = () => {
               <p className="text-center text-xl">
                 ${subscription.price} / {subscription.duration}
               </p>
-              <p className="my-5 px-5 text-base">{subscription.details}</p>
+              <ul className="my-5 text-center text-gray-600 space-y-2">
+                <li className="flex items-center gap-2 ml-5"><IoCheckmark /> Lorem ipsum dolor sit amet.</li>
+                <li className="flex items-center gap-2 ml-5"><IoCheckmark /> Lorem ipsum dolor sit amet.</li>
+                <li className="flex items-center gap-2 ml-5"><IoCheckmark /> Lorem ipsum dolor sit amet.</li>
+              </ul>
             </div>
             <div className="grid grid-cols-2 gap-3 px-5">
               <button

@@ -148,7 +148,7 @@ const Collaborator = () => {
       key: "status",
       render: (_, record) =>
         record.isWinner ? (
-          <span className="text-white bg-red-600 px-2 py-1 rounded flex items-center gap-1">
+          <span className="text-white text-center justify-center bg-red-600 px-2 py-1 rounded flex items-center gap-1">
             Winners <AiFillCrown />
           </span>
         ) : null,
@@ -174,9 +174,8 @@ const Collaborator = () => {
           <div>
             <button
               onClick={handleWinners}
-              className={`rounded-full px-4 py-2 flex items-center gap-2 text-base ${
-                winners ? "bg-red-600 text-white" : "bg-gray-300 text-black"
-              }`}
+              className={`rounded-full px-4 py-2 flex items-center gap-2 text-base ${winners ? "bg-red-600 text-white" : "bg-gray-300 text-black"
+                }`}
             >
               Winners <AiFillCrown />
             </button>
