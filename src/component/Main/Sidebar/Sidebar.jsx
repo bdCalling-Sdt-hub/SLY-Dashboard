@@ -84,11 +84,7 @@ const sidebarItems = [
   //   name: "Suggestion",
   //   icon: <HiLightBulb className="size-8" />,
   // },
-  // {
-  //   path: "/Donation",
-  //   name: "Donation",
-  //   icon: <RiMoneyDollarCircleFill className="size-6" />,
-  // },
+ 
   {
     path: "/settings",
     name: "Settings",
