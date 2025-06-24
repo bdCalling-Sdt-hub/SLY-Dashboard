@@ -59,11 +59,7 @@ const sidebarItems = [
     name: "SLY Package ",
     icon: <AiFillCrown className="size-6" />,
   },
-  // {
-  //   path: "/user-request",
-  //   name: "Super User Request",
-  //   icon: <FaBriefcase className="size-6" />,
-  // },
+ 
   // {
   //   path: "/allevent",
   //   name: "All Tournament",
