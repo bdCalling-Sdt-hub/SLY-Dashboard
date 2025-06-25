@@ -61,11 +61,7 @@ const sidebarItems = [
   },
  
  
-  // {
-  //   path: "/subscription",
-  //   name: "Subscription",
-  //   icon: <FaCopy className="size-6" />,
-  // },
+
   // {
   //   path: "/earnings",
   //   name: "Earnings",
