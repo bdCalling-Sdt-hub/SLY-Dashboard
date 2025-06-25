@@ -60,11 +60,7 @@ const sidebarItems = [
     icon: <AiFillCrown className="size-6" />,
   },
  
-  // {
-  //   path: "/allevent",
-  //   name: "All Tournament",
-  //   icon: <FaBriefcase className="size-6" />,
-  // },
+ 
   // {
   //   path: "/subscription",
   //   name: "Subscription",
